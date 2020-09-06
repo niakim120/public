@@ -1,0 +1,42 @@
+#Sitebody{
+	width:600px;
+	margin:0 auto;
+	font-size: 13px;
+}
+#Header{
+	background-color: #FFD4D4;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
+#Sidebar_left{
+	background-color: #FFECC9;
+	width: 120px;
+	height: 400px;
+	text-align: center;
+	line-height: 400px;
+	float: left;
+}
+#Sidebar_right{
+	background-color: #FFECC9;
+	width: 120px;
+	height: 400px;
+	text-align: center;
+	line-height: 400px;
+	float: right;
+}
+#Content{
+	margin-left: 120px;
+	margin-right: 120px;
+	height: 400px;
+	background-color: #F2FFF2;
+	text-align: center;
+	line-height: 400px;
+}
+#Footer{
+	clear: both;
+	background-color: #FFD4D4;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}

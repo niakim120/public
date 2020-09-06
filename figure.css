@@ -1,0 +1,24 @@
+#T1{
+	border-right: 15px solid white;
+	border-left: 15px solid white;
+	border-bottom: 20px solid blue;
+	display: inline-block;
+}
+#T2{
+	border-top: 15px solid white;
+	border-bottom: 15px solid white;
+	border-left: 30px solid blue;
+	display: inline-block;
+}
+#T3{
+	border-right: 15px solid white;
+	border-left: 15px solid white;
+	border-top: 40px solid blue;
+	display: inline-block;
+}
+#T4{
+	border-top: 15px solid white;
+	border-bottom: 15px solid white;
+	border-right: 5px solid blue;
+	display: inline-block;
+}

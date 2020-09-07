@@ -1,0 +1,33 @@
+*{
+    border: solid 1px;
+}
+h1{
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+p{
+    text-align: center;
+}
+span{
+    border: 2px;
+    padding: 6px;
+    border-style: solid;
+    border-color: #888888;
+    padding: 2px;
+}
+.title{
+    background: #f81;
+    color: #00f;
+    font-size: 120%;
+    padding: 4px;
+}
+#demo-area-01-show{
+    font-size: 32px;
+    background: yellow;
+    color: blue;
+    padding: 6px;
+    pointer-events: auot!important;
+}

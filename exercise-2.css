@@ -1,5 +1,5 @@
 *{
-    font-size: 16px;
+	font-size: 16px;
 }
 body{
 	position: relative;
@@ -36,14 +36,13 @@ body{
 	width:90px;
 	height:25px;
 	font-size: 12px;
-    border-radius: 2px;
-    margin: 0 auto;
+	border-radius: 2px;
 }
 .db_2{
-	position: absolute;
-    left:50%;
-    transform:translateX(-50%);
-    top: 210px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+	top: 210px;
 }
 .db_3{
     position: relative;
@@ -53,20 +52,20 @@ body{
 	padding: 10px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 15px;
+    margin-top: 15px;
+ 
 
 }
 .bon_2{
     position: absolute;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
-    right: 10px;
-	width:170px;
+    right: 15px;
+	width:190px;
 	height:25px;
 	font-size: 12px;
 	border-radius: 2px;
-    float: right;
- 
+	float: right;
 
 }
 .last{

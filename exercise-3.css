@@ -1,0 +1,59 @@
+body{
+	width: 1000px;
+	height: 800px;
+	padding: 0px;
+	margin: 0px;
+}
+#header{
+	width: 1000px;
+	height: 70px;
+
+}
+#sidebar{
+	width: 150px;
+	height: 700px;
+	float: left;	
+}
+#body{
+	width: 850px;
+	height: 700px;
+	float: left;
+}
+h1{
+	color: red;
+	text-align: center;
+}
+.nav_area{
+	position: relative;
+	bottom: 21px;
+	background-color: rgba(192,192,192);
+}
+.rowline{
+	display: inline-block;
+	padding: 6px 20px;
+	margin: 0px 5px;
+	background-color: rgba(192,192,192);
+}
+.linono{
+	list-style-type: none;
+}
+.colline{
+	font-size: 20px;
+	letter-spacing: 5px;
+	line-height: 3;
+}
+table{
+	border: solid 1px;
+	font-size: 20px;
+	border-collapse: collapse;
+	width: 600px;
+	height: 600px;
+	text-align: center;
+	margin: 35px 0px 0px 50px;
+}
+th{
+	border: solid 1px;
+}
+td{
+	border: solid 1px;
+}

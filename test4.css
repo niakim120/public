@@ -1,0 +1,65 @@
+body{
+	background-color: #333;
+}
+.cross{
+	border: solid 2px;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background-color: #FCDF1E;
+
+}
+.cross:hover{
+	background-color: #FC5D1E;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.cross:hover .line1, .cross:hover .line2{
+	width: 170px;
+}
+.cross:hover .line1{
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.cross:hover .line2{
+	transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+.cross .line1, .cross .line2{
+	width: 150px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	transition-duration: 0.5s;
+}
+.cross .line1{
+	transform: translateX(-50%) translateY(-200%);
+}
+.cross .line2{
+	transform: translateX(-50%) translateY(200%);
+}
+
+.block{
+	border: solid 2px white;
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	font-family: 微軟正黑體;
+
+}
+.block:hover h1,.block:hover p{
+	opacity: 1;
+	top: 0px;
+
+}
+.block h1,.block p{
+	position: relative;
+	top: 20px;
+	opacity: 0;
+	color: white;
+	transition-duration: 0.5s
+}
+.block p{
+	transition-delay: 0.5s
+}
